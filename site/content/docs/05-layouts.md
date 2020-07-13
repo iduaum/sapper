@@ -2,7 +2,7 @@
 title: Layouts
 ---
 
-So far, we've treated pages as entirely standalone components — upon navigation, the existing component will be destroyed, and a new one will take its place.
+So far, we've created pages as entirely standalone components — upon navigation, the existing component will be destroyed, and a new one will take its place.
 
 But in many apps, there are elements that should be visible on *every* page, such as top-level navigation or a footer. Instead of repeating them in every page, we can use *layout* components.
 
